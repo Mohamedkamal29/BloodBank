@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize">16sp</dimen>
+    <dimen name="marginTop">15dp</dimen>
+    <dimen name="marginLeft">8dp</dimen>
+    <dimen name="btn_width">210dp</dimen>
+    <dimen name="btn_height">49dp</dimen>
+
+
+    <dimen name="title">20dp</dimen>
+    <dimen name="btnText">14sp</dimen>
+<!-- Setting-->
+    <dimen name="setting_textSize">18sp</dimen>
+
+
+
+</resources>

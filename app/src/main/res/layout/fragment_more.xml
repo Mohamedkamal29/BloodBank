@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+tools:context=".Fragment.Fragment.BottomNavigation.MoreFragment.MoreFragment">
+
+
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_marginTop="25dp">
+
+<TextView
+    android:id="@+id/txtFavourite"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/favourite"
+    android:textSize="@dimen/setting_textSize"
+    android:textColor="@color/dark_red"
+    android:drawableLeft="@drawable/ic_favorite"
+    android:drawablePadding="6dp"
+
+    />
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="10dp"
+    android:background="@color/dark_red"/>
+
+    <TextView
+        android:id="@+id/txtContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/contact_us"
+        android:textSize="@dimen/setting_textSize"
+        android:textColor="@color/dark_red"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="6dp"
+
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/dark_red"/>
+
+       <TextView
+        android:id="@+id/txtAboutUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+        android:text="@string/about_us"
+        android:textSize="@dimen/setting_textSize"
+        android:textColor="@color/dark_red"
+        android:drawableLeft="@drawable/ic_about"
+        android:drawablePadding="6dp"
+
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/dark_red"/>
+
+
+    <TextView
+        android:id="@+id/txtRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/rate_app_on_playstore"
+        android:textSize="@dimen/setting_textSize"
+        android:textColor="@color/dark_red"
+        android:drawableLeft="@drawable/ic_rate"
+        android:drawablePadding="6dp"
+
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/dark_red"/>
+
+    <TextView
+        android:id="@+id/txtNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/notification_setting"
+        android:textSize="@dimen/setting_textSize"
+        android:textColor="@color/dark_red"
+        android:drawableLeft="@drawable/ic_settings"
+        android:drawablePadding="6dp"
+
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/dark_red"/>
+
+    <TextView
+        android:id="@+id/txtExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/exit_app"
+        android:textSize="@dimen/setting_textSize"
+        android:textColor="@color/dark_red"
+        android:drawableLeft="@drawable/ic_exit"
+        android:drawablePadding="6dp"
+
+        />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.Fragment.BottomNavigation.MoreFragment.ContactUsFragment">
+
+
+    <include layout="@layout/toolbar"
+    android:id="@+id/toolbar"
+    />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="15dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Phone"
+            android:textSize="16sp"
+            android:textColor="@color/dark_red"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/dark_red"/>
+        <TextView
+            android:id="@+id/tvPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_red"
+            android:textSize="16sp"
+            android:text="0193848434"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_phone"
+            android:drawablePadding="6dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/Email"
+            android:textSize="16sp"
+            android:textColor="@color/dark_red"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/dark_red"/>
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_red"
+            android:textSize="16sp"
+            android:text="kamal.ahmed@yahoo.com"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_email"
+            android:drawablePadding="6dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp">
+            <ImageView
+                android:id="@+id/facebookImg"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/logo_facebook"/>
+
+            <ImageView
+                android:id="@+id/instgramImg"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/logo_instagram"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp">
+            <ImageView
+                android:id="@+id/twitterImg"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/logo_twitter"/>
+
+            <ImageView
+                android:id="@+id/youtubeImg"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/logo_youtube"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etTitle_Message"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/authorization_edittext_shape"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="30dp"
+            android:hint="Title of message"
+            android:textColorHint="@color/dark_red"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"/>
+
+        <EditText
+            android:id="@+id/etMessage"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/authorization_edittext_shape"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="30dp"
+            android:hint="Message"
+            android:textColorHint="@color/dark_red"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"/>
+
+
+        <Button
+            android:id="@+id/btnSave"
+            style="@style/buttonTheme"
+            android:text="@string/Send"
+            android:backgroundTint="@color/dark_red"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+</LinearLayout>

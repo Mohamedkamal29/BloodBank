@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">BloodBank</string>
+
+
+    <!-- User -->
+    <string name="Phone">Phone</string>
+    <string name="Password">Password</string>
+    <string name="forgetPassword">Forget Password?</string>
+    <string name="rememberMe">Remember Me</string>
+    <string name="Login">Login</string>
+    <string name="notHaveAccount">Not Have Account ?</string>
+    <string name="registerNow">Register Now</string>
+
+
+    <!-- Registration-->
+    <string name="createNewAccount">Create New Account</string>
+    <string name="Name">Name</string>
+    <string name="Email">Email</string>
+    <string name="birthDate">BirthDate</string>
+    <string name="lastDonateDate">Last Donate Date</string>
+    <string name="Register">Register</string>
+    <string name="confirmPassword">Confirm Password</string>
+
+
+    <!-- Forget Password-->
+    <string name="Send">Send</string>
+
+    <!-- Confirm Password-->
+    <string name="confirmCode">Confirm Code</string>
+    <string name="newPassword">New Password</string>
+    <string name="confirmNewPassword">Confirm New Password</string>
+    <string name="Change">Change</string>
+
+    <!-- Home Fragment-->
+    <string name="Posts">Posts</string>
+    <string name="Donate">Donate</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- More Fragment-->
+    <string name="exit_app">Exit App</string>
+    <string name="notification_setting">Notification Setting</string>
+    <string name="rate_app_on_playstore">Rate App On PlayStore</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="favourite">Favourite</string>
+    <string name="save">Save</string>
+    <string name="home">Home</string>
+    <string name="profile">profile</string>
+    <string name="notification">notification</string>
+    <string name="setting">Setting</string>
+
+    <string name="search_hint">Enter word to search</string>
+
+</resources>

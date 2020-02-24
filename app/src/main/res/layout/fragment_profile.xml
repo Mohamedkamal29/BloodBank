@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.Fragment.BottomNavigation.ProfileFragment"
+    >
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_below="@+id/toolbar">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/name"
+            style="@style/edittextRegistrationTheme"
+            android:drawableLeft="@drawable/ic_person"
+            android:drawablePadding="3dp"
+            android:hint="@string/Name"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:nextFocusDown="@string/Email"
+            />
+
+        <EditText
+            android:id="@+id/email"
+            style="@style/edittextRegistrationTheme"
+            android:drawableLeft="@drawable/ic_email"
+            android:drawablePadding="3dp"
+            android:hint="@string/Email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:nextFocusDown="@string/birthDate"
+            />
+
+        <EditText
+            android:id="@+id/birthDate"
+            style="@style/edittextRegistrationTheme"
+            android:drawableLeft="@drawable/ic_date"
+            android:drawablePadding="3dp"
+            android:hint="@string/birthDate"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/spinnerRegistrationTheme"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_blood"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bloodType"
+
+
+                />
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/donateDate"
+            style="@style/edittextRegistrationTheme"
+            android:background="@drawable/authorization_edittext_shape"
+            android:drawableLeft="@drawable/ic_date"
+            android:drawablePadding="3dp"
+            android:hint="@string/lastDonateDate"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/spinnerRegistrationTheme"
+
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_location"/>
+            <Spinner
+                android:id="@+id/country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <Spinner
+                android:id="@+id/city"
+                style="@style/spinnerRegistrationTheme"
+                android:visibility="gone"
+
+                />
+        </LinearLayout>
+
+
+
+        <EditText
+            android:id="@+id/Phone"
+            style="@style/edittextRegistrationTheme"
+            android:drawableLeft="@drawable/ic_phone"
+            android:drawablePadding="3dp"
+            android:hint="@string/Phone"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:maxLines="1"
+            android:nextFocusDown="@string/Password"
+            />
+
+        <EditText
+            android:id="@+id/Password"
+            style="@style/edittextRegistrationTheme"
+            android:drawableLeft="@drawable/ic_lock"
+            android:drawablePadding="3dp"
+            android:hint="@string/Password"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:maxLines="1"
+            android:nextFocusDown="@string/confirmPassword"
+            />
+
+        <EditText
+            android:id="@+id/confirmPassword"
+            style="@style/edittextRegistrationTheme"
+            android:drawableLeft="@drawable/ic_lock"
+            android:drawablePadding="3dp"
+            android:hint="@string/confirmPassword"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:maxLines="1"
+            />
+
+
+
+        <Button
+            android:id="@+id/btnSave"
+            style="@style/buttonTheme"
+            android:text="@string/save"
+            android:backgroundTint="@color/dark_red"
+            android:textColor="@color/white"
+            />
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+    </LinearLayout>
+
+
+

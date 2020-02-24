@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9A0B0B</color>
+    <color name="colorPrimaryDark">#9A0B0B</color>
+    <color name="colorAccent">#9A0B0B</color>
+
+    <!-- colors for tab and screen text -->
+    <color name="white">#ffff</color>
+    <color name="black">#000000</color>
+    <color name="dark_red"> #9A0B0B</color>
+    <color name="second_dark_red">#772904</color>
+    <color name="gray">#E9E9E9</color>
+    <color name="orange">#ED5107</color>
+    <color name="transparent_dark_red"> #809A0B0B</color>
+
+
+
+</resources>
